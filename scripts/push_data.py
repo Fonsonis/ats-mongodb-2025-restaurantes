@@ -4,7 +4,7 @@ from bson import ObjectId
 from datetime import datetime
 
 # Configuración de MongoDB Atlas
-MONGO_URI = "mongodb+srv://daniel:Ninjapsp123@cluster0.ysuaj.mongodb.net/<tu-db>"
+MONGO_URI = "mongodb+srv://hola:hola@cluster0.ysuaj.mongodb.net/<tu-db>"
 client = MongoClient(MONGO_URI)
 db = client["restaurant_db"]
 
